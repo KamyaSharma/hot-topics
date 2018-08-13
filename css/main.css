@@ -61,6 +61,33 @@ a:active {
     color: #fff;
 }
 
+/*FOOTER*/
+footer {
+    margin: 0 auto;
+    background-color: #000;
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+
+footer a:link,
+footer a:visited,
+footer a:hover,
+footer a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-icons a {
+    padding-right: 1em;
+}
+
+.copyright {
+    padding-top: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #a27f2d;
+}
+
 /* CONTENT */
 
 .main-content h2 {
@@ -96,7 +123,6 @@ a:active {
 }
 
 /* HEADER*/
-
 .logo {
     display: block;
     margin: 0 auto;
@@ -133,36 +159,13 @@ a:active {
     display: none;
 }
 
-/*FOOTER*/
 
-footer {
-    margin: 0 auto;
-    background-color: #000;
-    margin-top: 1rem;
-    padding-top: 2rem;
-}
 
-footer a:link,
-footer a:visited,
-footer a:hover,
-footer a:active {
-    text-decoration: none;
-    color: #fff;
-}
 
-.social-icons a {
-    padding-right: 1em;
-}
 
-.copyright {
-    padding-top: 1em;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    color: #a27f2d;
-}
+/*MEDIA QUERIES*/
 
 /* PHONE */
-
 @media only screen and (min-width: 480px) {
     .logo {
         width: 25%;
@@ -176,7 +179,6 @@ footer a:active {
 }
 
 /* TABLETS */
-
 @media only screen and (min-width: 768px) {
     body {
         font-size: 1rem;
@@ -255,7 +257,6 @@ footer a:active {
 }
 
 /* DESKTOPS */
-
 @media only screen and (min-width: 992px) {
     body {
         font-size: 1.25rem;
@@ -319,11 +320,9 @@ footer a:active {
     .portfoliobox {
         width: 31%;
     }
-
 }
 
-/* Large Devices, Wide Screens */
-
+/* WIDE SCREEN */
 @media only screen and (min-width: 1200px) {
 
     .logo {
@@ -338,6 +337,5 @@ footer a:active {
     .masthead h1 {
         padding-top: 9rem;
     }
-
 }
 
